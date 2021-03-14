@@ -64,5 +64,5 @@ dependencies {
 
     //Shared KMM
     //Ideally, create your own Maven Java Module
-    implementation fileTree(dir: "${System.env.KMM_SHARED_SAMPLE_AAR_DIR}", include: ['*.aar', '*.jar'], exclude: [])
+    implementation fileTree(dir: "../../KmmSampleApplication/shared/build/outputs/aar", include: ['*.aar', '*.jar'], exclude: [])
 }
