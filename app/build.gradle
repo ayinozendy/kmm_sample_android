@@ -65,5 +65,6 @@ dependencies {
     //Shared KMM
     //Ideally, create your own Maven Java Module
     //Test-Change
+    //Another test-change
     implementation fileTree(dir: "../../KmmSampleApplication/shared/build/outputs/aar", include: ['*.aar', '*.jar'], exclude: [])
 }
